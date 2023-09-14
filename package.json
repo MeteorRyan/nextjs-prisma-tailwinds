@@ -1,0 +1,30 @@
+{
+  "name": "caveat-emptor",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Tim Roberts <tim@mck-p.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "18.2.21",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "postcss-preset-env": "^9.1.3",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  }
+}
