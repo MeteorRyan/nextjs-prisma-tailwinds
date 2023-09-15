@@ -38,6 +38,7 @@ This requires that you have started your docker instances
 # Set up environment variables
 # URL structure: postgres://<username for db>:<password for db>@<host for db>:<port for db>:<database name>
 export POSTGRES_PRISMA_URL="postgres://username:password@0.0.0.0:9999/caveat_emptor"
+npx prisma db push
 ``` 
 
 ### Creating Data in Tables
